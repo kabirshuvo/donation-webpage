@@ -1,0 +1,310 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+/* Header Section Styles Starts From Here */
+header {
+  height: 100vh;
+  width: 100%;
+  background-image: url("https://images.unsplash.com/photo-1495427513693-3f40da04b3fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+header h1 {
+  font-size: 4rem;
+  color: rebeccapurple;
+  margin-top: -7%;
+}
+header p {
+  font-size: 1.5rem;
+  width: 1140px;
+  padding: 20px;
+}
+.btn-primary {
+  background-color: rebeccapurple;
+  font-size: 2rem;
+  color: aliceblue;
+  padding: 20px 50px;
+  border: none;
+  border-radius: 4px;
+}
+.btn-primary:hover {
+  cursor: pointer;
+}
+
+/* Header Section Ends Here */
+/* Section 1 Starts from here */
+.donate{
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+  background-color: #fff;
+
+}
+.donate h1 {
+
+  font-size: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 100px;
+}
+.donate p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.ammount-range, .other-ammount{
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .other-ammount{
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.donation-ammount{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 700px;
+  margin: 50px auto;
+}
+.donate h2{
+  font-size: 35px;
+  padding: 30px;
+  
+}
+.donate .active{
+  background-clip: padding-box;
+  background-color: rebeccapurple;
+  border: 1px solid white;
+  border-radius: 4px;
+  color: #fff;
+
+}
+.donate hr {
+  margin-bottom: 50px;
+  width: 550px;
+ margin: 0 auto;
+}
+.donate-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+}
+/* Donation Section styles ends here, Other ammount tk have all three options but 
+only one will have to keep other two have to comment */
+
+/* planing-section Styles Starts from here */
+
+.planing-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.planing-section h1{
+  font-size: 4rem;
+  padding: 100px;
+
+}
+
+.planing-section .planning-title {
+ text-align: center;
+ margin-top: -100px;
+ margin-bottom: 100px;
+}
+.donate-plan{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.donate-plan1{
+background-color: khaki;
+}
+.donate-plan2{
+  background-color:bisque;
+}
+.donate-plan3{
+  background-color: antiquewhite;
+}
+.planing-boxes{
+  display: flex;
+  margin: 0 15% 1% 17%;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  gap: 50px;
+}
+.planing-boxes img, h3, p{
+  padding: 20px;
+}
+.read-more-btn{
+  display: flex;
+  padding: 5px;
+  border: none;
+  border-radius: 7px;
+  background-color: rgb(172, 140, 204);
+  color:#fff;
+ align-items: flex-end;
+ margin: 10px auto;
+}
+
+/* Planning Section Ends Here */
+
+/* Apple Section Starts from here */
+.section-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding: 200px;
+  
+}
+.sc-left{
+  margin-left: 17%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.sc-right{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15%;
+}
+.sc-right img{
+  width: 350px;
+  height: 550px;
+  border-radius: 11px;
+  object-fit: cover;
+}
+.how-to-btn{
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.depend-title{
+  font-size: 35px;
+}
+
+/* apple Section styles ends here */
+/* apple section 1 starts from here */
+.need-us{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 17%;
+  margin-left: 15%;
+  gap: 17%;
+ padding-bottom: 100px;
+
+}
+.need-left img{
+  width: 350px;
+  height: 550px;
+  border-radius: 11px;
+  object-fit: cover;
+}
+.need-right{
+  display: flex;
+  flex-direction: column;
+}
+.need-right h2{
+  font-size: 35px;
+  text-align: center;
+}
+
+/* apple section 1 ends here */
+/* email section starts from here */
+
+.get-my-update{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.get-my-update h1{
+font-size: 35px;
+}
+.get-my-update p {
+font-size: 20px;
+text-align: center;
+}
+.email{
+width: 700px;
+height: 250px;
+background-color: rosybrown;
+border-radius: 4px;
+display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+margin-bottom: 50px;
+}
+.email input{
+  height: 35px;
+}
+.put-email{
+  width:300px;
+  border: none;
+  border-radius: 7px;
+  font-size: 1rem;
+}
+.subscribe{
+  width: 150px;
+  background-color: rebeccapurple;
+  border: none;
+  border-radius: 7px;
+  font-size: 1rem;
+  color: #fff;
+}
+
+/* Footer section Starts from here */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  background-color: rebeccapurple;
+  color: #fff;
+  padding-top: 50px;
+}
+footer h2 {
+  font-size: 40px;
+  text-align: center;
+ margin-bottom: -20px;
+}
+footer p {
+  font-size: 20px;
+  text-align: center;
+  /* padding: 50px; */
+
+}
